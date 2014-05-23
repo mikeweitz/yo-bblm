@@ -1,0 +1,10 @@
+<ifModule mod_rewrite.c>
+
+	# Rewrite rules for html5 pushstate support and social scrapers:
+    # RewriteEngine On
+    # RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteCond %{REQUEST_URI} !index
+	# RewriteRule ^(.*)$ index.php?escape_frag=$1 [L,QSA]
+
+</ifModule>

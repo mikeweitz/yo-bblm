@@ -1,0 +1,215 @@
+//
+// font includes
+//
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+//
+// Colors
+//
+$link:    #009;
+$text:    #222;
+$bg:      #eee;
+
+
+.font-header {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boxsize {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+.no-bullet {
+	list-style-type: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.sprite {
+	background-image: url(../images/sprite.png);
+	background-color: transparent;
+  overflow: hidden;
+}
+
+// responsive zoom levels for sprites:
+@mixin zoom($value){
+    zoom: $value;
+    -moz-transform:scale($value);
+    -moz-transform-origin: 0 0;
+}
+
+
+@mixin transition($val...){
+    -o-transition: $val;
+    -webkit-transition: $val;
+    transition: $val;
+}
+
+@mixin opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+
+
+@mixin borderradius($pxTop: 4px, $pxBot: 4px) {
+  border-top-left-radius: $pxTop;
+  border-top-right-radius: $pxTop;
+  border-bottom-left-radius: $pxBot;
+  border-bottom-right-radius: $pxBot;
+}
+
+@mixin borderradiusSet($pxTL: 4px, $pxTR: 4px, $pxBL: 4px, $pxBR: 4px) {
+  border-top-left-radius: $pxTL;
+  border-top-right-radius: $pxTR;
+  border-bottom-left-radius: $pxBL;
+  border-bottom-right-radius: $pxBR;
+}
+
+@mixin pad($pxTop: 4px, $pxRt: 4px, $pxBot: 4px, $pxLeft: 4px) {
+  padding-top: $pxTop;
+  padding-right: $pxRt;
+  padding-bottom: $pxBot;
+  padding-left: $pxLeft;
+}
+
+@mixin boxshadow($value: 2px 2px 4px 0 #000) {
+  -webkit-box-shadow: $value;
+          box-shadow: $value;
+}
+
+@function px-adjust($initial, $adjust){
+  @return $initial - $adjust
+}
+
+
+
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+		br {
+		    display: none;
+		}
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}

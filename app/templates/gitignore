@@ -1,0 +1,11 @@
+_deliver
+deliver
+*/bower_components
+app/assets/bower_components
+node_modules
+dist
+.tmp
+_assets
+_ASSETS
+app/assets/styles/.sass-cache
+.sass-cache

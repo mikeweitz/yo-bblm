@@ -1,0 +1,145 @@
+{
+	"share": {
+		"path" : "http://domain.com",
+		"caption" : "Share Caption for Facebook"
+	},
+	"home" : {
+		"trailer": "http://m.youtube.com/watch?v=k85UwztJMhw",
+		"cta": "Watch the trailer"
+	},
+	"videos": [
+		{
+			"id" : "b2iYTIY0ks8",
+			"thumb": "assets/images/thumb-fpo.jpg",
+			"label": "Video Name"
+		},
+		{
+			"id" : "b2iYTIY0ks8",
+			"thumb": "assets/images/thumb-fpo.jpg",
+			"label": "Video Name"
+		},
+		{
+			"id" : "b2iYTIY0ks8",
+			"thumb": "assets/images/thumb-fpo.jpg",
+			"label": "Video Name"
+		}
+	],
+	"about": {
+		"title": "About the Film",
+		"copy": "<p>Each night, when Ben falls asleep, his Crayons jump into their magical Crayon Box which transports them to their home in COLOR CITY, a world of dazzling hues, soaring fantasy and the whimsy of childhood. This land is fed by an enchanted rainbow and waterfall that provides the City and its citizens with color.</p><p>When YELLOW, our timid heroine, is accidentally left behind in Ben's room, she inadvertently awakens two Unfinished Drawings: KING SCRAWL, a huge, powerful, mute monster -- and GNAT, Scrawl's motor-mouthed, overactive sidekick. In search of color for themselves, they follow Yellow to Color City, causing panic and concern. If Scrawl and Gnat can claim the waterfall for themselves, Color City will fade, and along with it, our lovable crayon characters will disappear.</p><p>It's up to Yellow and a motley crew of Crayons, bodacious and brave, BLUE, meticulous, fussy GREEN, satirical RED, pessimistic BLACK and overanxious WHITE to save the day. Meeting with fantastical creatures and fun adventures along the way, Yellow discovers she has more courage and strength than she knew and learns to believe in herself and to count on the support of her friends.</p><p>Replete with valuable life lessons, this enchanting story will entertain and inspire in a stunningly rendered and utterly unique animated world.</p>",
+		"images": [
+			{
+				"image": "assets/images/about/portal.jpg",
+				"thumb": "assets/images/about/portal-sm.jpg",
+				"label": "Exterior Portal"
+			},
+			{
+				"image": "assets/images/about/pier.jpg",
+				"thumb": "assets/images/about/pier-sm.jpg",
+				"label": "The Pier"
+			},
+			{
+				"image": "assets/images/about/dunes.jpg",
+				"thumb": "assets/images/about/dunes-sm.jpg",
+				"label": "The Dunes"
+			},
+			{
+				"image": "assets/images/about/mountain.jpg",
+				"thumb": "assets/images/about/mountain-sm.jpg",
+				"label": "Top of the Mountain"
+			}
+		]
+	},
+
+	"characters" : [
+		{
+			"name": "Name 1",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/01.jpg"
+		},
+		{
+			"name": "Name 2",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/02.jpg"
+		},
+		{
+			"name": "Name 3",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/03.jpg"
+		},
+		{
+			"name": "Name 4",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/04.jpg"
+		},
+		{
+			"name": "Name 5",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/05.jpg"
+		},
+		{
+			"name": "Name 6",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/06.jpg"
+		},
+		{
+			"name": "Name 7",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/07.jpg"
+		},
+		{
+			"name": "Name 8",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/08.jpg"
+		},
+		{
+			"name": "Name 9",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/09.jpg"
+		},
+		{
+			"name": "Name 10",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/10.jpg"
+		},
+		{
+			"name": "Name 11",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris ut ligula sollicitudin viverra sit amet et libero. Nullam tristique massa vel eros tincidunt elementum. Donec in pharetra mauris, eu semper massa. Morbi ullamcorper ante a metus aliquam, at vehicula urna pellentesque. Ut molestie metus eu erat ornare, et pretium lacus rhoncus. Proin gravida ligula. vitae lobortis accumsan. In pretium malesuada libero, et porta erat ultricies. Integer congue quis nibh vitae pharetra. Quisque nec fringilla magna. Nulla facilisi. Vestibulum vulputate metus sed sem elementum lobortis. Donec vel rutrum leo. Vivamus vel turpis ac mi gravida ornare. Quisque et placerat felis, placerat scelerisque justo. Cras rutrum ligula ac justo accumsan, ac tincidunt ligula ultrices. Cras tristique ipsum non purus volutpat porta. tibuum in semper orci, vel gravida sapien. Fusce consequat nulla eget erat hendrerit adipiscing. Morbi dapibus leo vel odio consequat ornare vel eu erat.",
+			"image": "assets/images/characters/lg/fpo.png",
+			"thumb": "assets/images/characters/sm/11.jpg"
+		}
+	],
+	"tickets": [
+		{
+			"name": "Fandango",
+			"href": "http://google.com",
+			"className": "fandango"
+		},
+		{
+			"name": "MovieTickets.com",
+			"href": "http://google.com",
+			"className": "movie-tickets"
+		},
+		{
+			"name": "iTunes",
+			"href": "http://google.com",
+			"className": "itunes"
+		},
+		{
+			"name": "On Demand",
+			"href": "http://google.com",
+			"className": "on-demand"
+		}
+	]
+
+}
